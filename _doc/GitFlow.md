@@ -1,4 +1,4 @@
-### Iniciando um rep GitFlow
+'### Iniciando um rep GitFlow
 
 https://danielkummer.github.io/git-flow-cheatsheet/
 
@@ -54,3 +54,17 @@ Finalizando você voltará para a develop atualizada com a feature que foi final
 
 ![Alt text](./img/image-2.png)
 
+
+
+###Importante!!!
+
+Com vários utilizadores, é importante que sua develop esteja atualizada, para isso, dentro da develop use os comandos:
+
+
+```
+git fetch
+git pull origin develop
+```
+*Caso não esteja nela, apenas use `git checkout develop`* e os comandos acima.
+
+Esse comando irá atualizar a develop, em seguida pode dar checkout para a sua feature e publica-la ou finaliza-la sem mais problemas.
