@@ -4,6 +4,10 @@ https://danielkummer.github.io/git-flow-cheatsheet/
 
 https://www.gitkraken.com/learn/git/git-flow
 
+https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow
+
+https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04
+
 
 Para iniciar um repositório GitFlow, pode-se pegar um repositório git já criado ou de uma pasta não iniciada no git e digitar o seguinte comando bash:
 
