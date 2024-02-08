@@ -12,7 +12,7 @@ git flow init
 ``` 
 Este comando irá iniciar o repositório no GitFlow onde será possível realizar algumas configurações iniciais dos nomes das branchs que serão usadas como pode ser visto abaixo.
 
-![Alt text](image.png)
+![Alt text](./img/image.png)
 
 Ao ser inicializado o git flow, criará a branch master e a develop e ja te colocará na branch develop.
 
@@ -23,7 +23,7 @@ Para iniciar um feature basta usar o comando:
 ```
 git flow feature start [NomeDaFeature]
 ```
-![Alt text](image-1.png)
+![Alt text](./img/image-1.png)
 
 Uma branch ``Feature/[NomeDaFeature]`` será criada e você será jogado nela.
 Após realizar o trabalho, basta dar :
@@ -48,5 +48,5 @@ git flow feature finish [NomeDaFeature]
 Será solicitado a adição de uma explicação do trabalho realizado, como um commit explicando o motivo do merge.
 Finalizando você voltará para a develop atualizada com a feature que foi finalizada.
 
-![Alt text](image-2.png)
+![Alt text](./img/image-2.png)
 
